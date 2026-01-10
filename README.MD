@@ -1,4 +1,4 @@
-# Task Checklist (Docker Desktop)
+# Task Checklist
 
 This document is a copy/paste task list to guide implementation of a Kubernetes + Helm + Observability homelab using Docker Desktop Kubernetes.
 
@@ -121,7 +121,7 @@ This document is a copy/paste task list to guide implementation of a Kubernetes 
 
 ---
 
-## 5) Convert to Helm chart (Senior Helm expectations)
+## 5) Convert to Helm chart
 
 **Goal:** parameterize deployments safely and support environments.
 
