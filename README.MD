@@ -6,28 +6,25 @@ This document is a copy/paste task list to guide implementation of a Kubernetes 
 
 ## 0) One-time prerequisites
 
-- [ ] Install/verify tools:
-  - [ ] Docker Desktop
-  - [ ] Enable Kubernetes in Docker Desktop (Settings → Kubernetes → Enable)
-  - [ ] `kubectl` installed and working
-  - [ ] `helm` installed and working
-  - [ ] (Optional) `hey` for load testing (`brew install hey` on macOS)
+- [x] Install/verify tools:
+  - [x] Docker Desktop
+  - [x] Enable Kubernetes in Docker Desktop (Settings → Kubernetes → Enable)
+  - [x] `kubectl` installed and working
+  - [x] `helm` installed and working
+  - [x] (Optional) `hey` for load testing (`brew install hey` on macOS)
 
-- [ ] Verify cluster is reachable:
-  - [ ] `kubectl config use-context docker-desktop`
-  - [ ] `kubectl get nodes` (should show at least 1 node)
+- [x] Verify cluster is reachable:
+  - [x] `kubectl config use-context docker-desktop`
+  - [x] `kubectl get nodes` (should show at least 1 node)
 
 ---
 
 ## 1) Repo bootstrap
 
 - [ ] Create baseline folders in repo:
-  - [ ] `apps/`
+  - [x] `apps/`
   - [ ] `deploy/`
-  - [ ] `docs/`
   - [ ] `scripts/`
-
-- [ ] Add this file as: `docs/tasks.md`
 
 - [ ] Create namespaces manifests:
   - [ ] `deploy/namespaces/apps.yaml`
@@ -44,7 +41,7 @@ This document is a copy/paste task list to guide implementation of a Kubernetes 
 **Goal:** a tiny HTTP service you can deploy, observe, and break.
 
 ### App requirements
-- [ ] Expose `GET /healthz` → returns `200 ok`
+- [x] Expose `GET /healthz` → returns `200 ok`
 - [ ] Expose `GET /predict` → returns JSON
 - [ ] Env var: `LATENCY_MS` (simulate latency)
 - [ ] Env var: `ERROR_RATE` (0.0–1.0, simulate failures)
