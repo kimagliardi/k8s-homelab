@@ -1,4 +1,4 @@
-# SAP AI Core Homelab — Task Checklist (Docker Desktop)
+# Task Checklist (Docker Desktop)
 
 This document is a copy/paste task list to guide implementation of a Kubernetes + Helm + Observability homelab using Docker Desktop Kubernetes.
 
