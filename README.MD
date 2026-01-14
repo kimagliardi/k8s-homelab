@@ -46,11 +46,6 @@ helm version       # Should show v3.x
 - [ ] Inspect the image: `docker inspect api:local`
 - [ ] Check image size: `docker images api:local`
 
-### Exploration Exercises
-- [ ] Run `docker history api:local` - what do you see?
-- [ ] Try building without multi-stage - how much bigger is the image?
-- [ ] What happens if you use `golang:1.24` as final image instead of `scratch`?
-
 ---
 
 ## 1.2) Build a Better API
