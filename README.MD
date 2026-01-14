@@ -38,14 +38,6 @@ helm version       # Should show v3.x
 
 **Why:** Everything in Kubernetes runs in containers. You need to understand images, layers, and how containers work.
 
-## 1.1) Understand Docker Basics
-
-### Concepts to Learn
-- [ ] What is a container vs a VM?
-- [ ] What is an image? What are layers?
-- [ ] What is a Dockerfile?
-- [ ] What is a multi-stage build and why use it?
-
 ### Hands-on Tasks
 - [ ] Read your existing `apps/api/Dockerfile` - understand each line
 - [ ] Build the image: `docker build -t api:local apps/api`
